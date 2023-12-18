@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=M+PLUS+Code+Latin:wght@700&display=swap');
+
+
+
+body, #root {
+    min-height: 100vh;
+    font-family: 'Barlow', 'sans-serif';
+}
+
+.active {
+    color: red;
+    font-weight: 500;
+}
