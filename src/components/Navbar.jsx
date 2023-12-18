@@ -12,8 +12,8 @@ const Navbar = () => {
           <h1 className="text-sky-500 font-header font-bold italic text-4xl">Shippy</h1>
             <div className="flex gap-6 text-lg cursor-pointer ssm:hidden">
               <NavLink to="/">Home</NavLink>
-              <NavLink to="/services">Services</NavLink>
-              <NavLink to="/resources">Resources</NavLink>
+              <p>Services</p>
+              <p>Resources</p>
             </div>
             <div className="flex gap-4 items-center"> 
               <div className="px-7 py-3 ssm:px-4 ssm:py-2 bg-red-700 text-white font-medium rounded cursor-pointer">
